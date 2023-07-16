@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="salary.js"></script>
+    <title>jQuery Salary Calculator</title>
+  </head>
+
+  <body>
+    <header>
+        <h1>Salary Calculator</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Add Employee</h2>
+            <form>
+                <input id="firstName"
+                placeholder="First Name"
+                type="text">
+                <input id="lastName"
+                placeholder="Last Name"
+                type="text">
+                <input id="id"
+                placeholder="ID"
+                type="text">
+                <input id="title"
+                placeholder="Title"
+                type="text">
+                <input id="annualSalary"
+                placeholder="Annual Salary"
+                type="text">
+                <button class="submitButton">Submit</button>
+            </form>
+        </section>
+        
+        <section>
+            <h3>Employees</h3>
+            <table  id="salaryCalculator">  
+                <thead> <!-- represents block of rows that consist of the column labels -->
+                  <tr> <!-- represents row of cells in thead -->
+                    <th>First Name</th> <!--represents individual header cell-->
+                    <th>Last Name</th>
+                    <th>ID</th> 
+                    <th>Title</th> 
+                    <th>Annual Salary</th> 
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody> <!-- represents block of rows that consist of a body of data -->
+                  <tr> <!-- represents row of cells in tbody -->
+                    <td></td> <!-- represents data cell in table -->
+                    <td></td>
+                    <td></td> 
+                    <td></td> 
+                    <td></td> 
+                    <td></td> 
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+              </table>
+
+        </section>
+        <div>
+            <h2>Total Monthly:</h2>
+        </div>
+    </main>
+</body>
+</html>

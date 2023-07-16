@@ -1,0 +1,48 @@
+header{
+    background-color:#7a7a7a;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Table */
+table {
+    width: 100%;
+    text-align: left;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 2.15em;
+  }
+  th, td {
+    padding: .5em;
+    min-width: 3.5em;
+  }
+  thead {
+    background: #7a7a7a;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  tbody tr:nth-child(odd){ 
+    background: #fcfcfc;
+  }
+  tbody tr:nth-child(even){
+    background: #dcdcdc;
+  }
+/* footer */
+tfoot{
+    background: #7a7a7a;
+    color: #fcfcfc;
+}
+/* no broders in the footer */
+tfoot td {
+    border: none;
+}
+
+/* Total Monthly */
+div{
+    text-align:end;
+    font-family:Arial, Helvetica, sans-serif;
+}
